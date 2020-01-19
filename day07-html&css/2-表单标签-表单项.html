@@ -9,13 +9,15 @@
 <!--form-->
 
 <form action="#" method="get">
-    <label for="username">username</label>:<input name="username" type="text" placeholder="please input username" id="username"><br>
-    <label for="password">password</label>:<input name="password" type="password" placeholder="please input password" id="password"><br>
+    <label for="username">username</label>:<input id="username" name="username" placeholder="please input username"
+                                                  type="text"><br>
+    <label for="password">password</label>:<input id="password" name="password" placeholder="please input password"
+                                                  type="password"><br>
 
-    gender:<input name="gender" type="radio" value="male" checked="checked"> male
+    gender:<input checked="checked" name="gender" type="radio" value="male"> male
     <input name="gender" type="radio" value="female"> female <br>
 
-    hobbies:<input name="hobbies" type="checkbox" value="racing" checked="checked"> racing
+    hobbies:<input checked="checked" name="hobbies" type="checkbox" value="racing"> racing
     <input name="hobbies" type="checkbox" value="shopping"> shopping
     <input name="hobbies" type="checkbox" value="chess"> chess<br>
 
@@ -23,18 +25,24 @@
 
     hidden<input name="hidden info" type="hidden"><br>
 
-    ColorSnap<input type="color" name="colorsbap"><br>
+    ColorSnap<input name="colorsbap" type="color"><br>
 
-    DataOfBirth<input type="datetime-local" name="birthday"><br>
-    DataOfBirth<input type="date" name="birthday"><br>
+    DataOfBirth<input name="birthday" type="datetime-local"><br>
+    DataOfBirth<input name="birthday" type="date"><br>
 
-    Email<input type="email" name="Email"><br>
+    Email<input name="Email" type="email"><br>
 
-    Age<input type="number" name="age"><br>
+    Age<input name="age" type="number"><br>
+
+    Province<select name="Province">
+    <option value="">----please check-----</option>
+    <option value="1">----Shanghai--------</option>
+    <option selected="selected" value="2">----Hongkong--------</option>
+</select>
 
     <input type="submit" value="log in">
     <input type="button" value="normal  button">
-    <input type="image" src="../day06-html/image/icon_3.jpg" value="image button">
+    <input src="../day06-html/image/icon_3.jpg" type="image" value="image button">
 
 
     <br>
