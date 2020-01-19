@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06-html/day06-html.iml" filepath="$PROJECT_DIR$/day06-html/day06-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07-html&amp;css/day07-html&amp;css.iml" filepath="$PROJECT_DIR$/day07-html&amp;css/day07-html&amp;css.iml" />
     </modules>
   </component>
 </project>
