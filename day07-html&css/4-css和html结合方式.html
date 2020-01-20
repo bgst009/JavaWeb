@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        div{
-            color: blue;
-        }
-    </style>
+<!--    <style>-->
+<!--        div{-->
+<!--            color: blue;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--    外部方式1-->
+<!--    <link rel="stylesheet" href="css/a.css">-->
+<!--     外部方式2-->
+        <style>
+            @import "css/a.css";
+        </style>
 </head>
 <body>
 
@@ -17,6 +24,12 @@
 
 <!--内部样式-->
 <!--在head标签中定义style标签 style标签体内容就是CSS代码-->
+<!--<div>hello css</div>-->
+
+<!--外部样式-->
+<!--1.定义CSS资源文件-->
+<!--2.在head标签内定义link标签，引入外部的资源文件-->
+
 <div>hello css</div>
 
 </body>
