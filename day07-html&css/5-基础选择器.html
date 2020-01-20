@@ -20,6 +20,31 @@
         .class-1{
             color: gold;
         }
+
+        /*=================*/
+        div p{
+            color: brown;
+        }
+        div>p{
+            border: 1px solid;
+        }
+
+        input[type="text"]{
+            border: 2px solid;
+        }
+
+        a:link{
+            color: red;
+        }
+        a:active{
+            color: gold;
+        }
+        a:hover{
+            color: greenyellow;
+        }
+        a:visited{
+            color: blueviolet;
+        }
     </style>
 
 </head>
@@ -35,10 +60,47 @@
             * .class 属性值-->
 
 <!--优先级 class id 元素-->
-
 <div id="div-1">hhh</div>
 <div id="div-2">sss</div>
 <div class="class-1">lll</div>
 <div class="class-1">aaa</div>
+
+<!--    2. 拓展选择器-->
+<!--        1.选择所有元素-->
+<!--            *{}-->
+<!--        2.并集选择器-->
+<!--            选择器1，选择器2 {}-->
+<!--        3.子选择器：筛选选择器1 下的 选择器2 元素-->
+<!--            选择器1 选择器2{}-->
+<!--        4.父选择器-->
+<!--            选择器1 > 选择器2{}-->
+<!--        5.属性选择器 选择元素名称，属性名=属性值的元素-->
+<!--            元素名称[属性名=“属性值”]{}-->
+<!--        6.伪类选择器 选择一些元素具有的状态-->
+<!--            元素：状态{}-->
+<!--            如：<a>-->
+<!--                状态：-->
+<!--                    link 初始状态-->
+<!--                    visited-->
+<!--                    active  -->
+<!--                    hover 悬停状态-->
+
+
+<div>
+    <p>
+        hello
+    </p>
+</div>
+
+<input type="text" placeholder="text">
+<input type="password" placeholder="text">
+
+
+<br><br><br><br><br>
+
+<a href="#">hello css agl</a>
+
+
+
 </body>
 </html>
