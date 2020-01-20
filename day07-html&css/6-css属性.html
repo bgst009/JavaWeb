@@ -6,6 +6,7 @@
 
     <style>
         p {
+            /*1.字体，文本-->*/
             color: red;
             font-size: 50px;
             text-align: center;
@@ -18,11 +19,54 @@
 
         div{
             border: green 10px solid;
+        /*<!--    4.尺寸-->*/
             height: 500px;
             width: 500px;
 
+            /*2.背景-->*/
+         //   background: url("../day06-html/image/jingxuan_2.jpg") no-repeat center;
+        }
 
-            background: url("../day06-html/image/jingxuan_2.jpg") no-repeat center;
+
+        .div1{
+            border: green 1px solid;
+
+            width: 100px;
+            height: 100px;
+            /*内边距*/
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        .div2{
+            border: blue 1px solid;
+
+            width: 50px;
+            height: 50px;
+            /*外边距*/
+            /*margin: 20px ;*/
+
+        }
+
+        .div3{
+            float: left;
+            border: green 10px solid;
+            /*<!--    4.尺寸-->*/
+            height: 100px;
+            width: 20px;
+        }
+        .div4{
+            float: left;
+            border: green 10px solid;
+            /*<!--    4.尺寸-->*/
+            height: 100px;
+            width: 20px;
+        }
+        .div5{
+            float: right;
+            border: green 10px solid;
+            /*<!--    4.尺寸-->*/
+            height: 100px;
+            width: 20px;
         }
     </style>
 
@@ -44,19 +88,24 @@
 <!--        width-->
 <!--        height-->
 <!--    5.盒子模型-->
+<!--        margin-->
+<!--        padding-->
+<!--        float-->
 
 <!--======================-->
-<!--    1.字体，文本-->
-<!--        font-size-->
-<!--        color-->
-<!--        text-align-->
-<!--        line-height-->
+
 <p>hello css world</p>
 <!--==========================-->
 
-
 <div></div>
+<!--===========================-->
+<div class="div1">
+    <div class="div2"></div>
+</div>
 
+<div class="div3"></div>
+<div class="div4"></div>
+<div class="div5"></div>
 
 </body>
 </html>
