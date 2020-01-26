@@ -1,6 +1,6 @@
-- [<span id="head1"> JavaWeb</span>](#head1)
+- [ JavaWeb](#head1)
 - [ web概念概述](#head2)
-	- [ JavaWeb：](#head3)
+	- [ JavaWeb](#head3)
 	- [ 软件架构：](#head4)
 	- [ B/S架构详解](#head5)
 - [ HTML](#head6)
@@ -11,82 +11,48 @@
 	- [4. css语法：](#head11)
 	- [5. 选择器：筛选具有相似特征的元素](#head12)
 	- [6. 属性](#head13)
-- [<span id="head2"> JavaScript基础</span>](#head14)
-	- [<span id="head3"> JavaScript：</span>](#head15)
-- [<span id="head4"> JavaScript高级</span>](#head16)
-	- [<span id="head5">1. ECMAScript 客户端脚本语言的标准</span>](#head17)
-		- [<span id="head6"> 1.基本语法：</span>](#head18)
-			- [<span id="head7">1. 与html结合方式</span>](#head19)
-			- [<span id="head8">2. 注释</span>](#head20)
-			- [<span id="head9">3. 数据类型：</span>](#head21)
-			- [<span id="head10">4. 变量</span>](#head22)
-			- [<span id="head11">5. 运算符</span>](#head23)
-			- [<span id="head12">6. 流程控制语句：</span>](#head24)
-			- [<span id="head13">7. JS特殊语法：</span>](#head25)
-		- [<span id="head14">2. 基本对象</span>](#head26)
-			- [<span id="head15">1. Function：函数(方法)对象</span>](#head27)
-			- [<span id="head16">2. Array:数组对象</span>](#head28)
-			- [<span id="head17">3. Boolean</span>](#head29)
-			- [<span id="head18">4. Date：日期对象</span>](#head30)
-			- [<span id="head19">5. Math：数学对象</span>](#head31)
-			- [<span id="head20">6. Number</span>](#head32)
-			- [<span id="head21">7. String</span>](#head33)
-			- [<span id="head22">8. RegExp：正则表达式对象</span>](#head34)
-			- [<span id="head23">9. Global</span>](#head35)
-	- [<span id="head24">2. BOM</span>](#head36)
-		- [<span id="head25">1. 概念：</span>](#head37)
-		- [<span id="head26">2. 组成：</span>](#head38)
-			- [<span id="head27"> **Window：窗口对象**</span>](#head39)
-			- [<span id="head28"> **Navigator：浏览器对象**</span>](#head40)
-			- [<span id="head29"> **Screen：显示器屏幕对象**</span>](#head41)
-			- [<span id="head30"> **History：历史记录对象**</span>](#head42)
-			- [<span id="head31"> **Location：地址栏对象**</span>](#head43)
-	- [<span id="head32">3. DOM</span>](#head44)
-	- [<span id="head33"> 事件监听机制：</span>](#head45)
-	- [<span id="head34"> DOM简单学习：为了满足案例要求</span>](#head46)
-	- [<span id="head35"> 事件简单学习</span>](#head47)
-- [ JavaWeb](#head1)
-- [ JavaScript基础](#head2)
-	- [ JavaScript：](#head3)
-- [ JavaScript高级](#head4)
-	- [1. ECMAScript 客户端脚本语言的标准](#head5)
-		- [ 1.基本语法：](#head6)
-			- [1. 与html结合方式](#head7)
-			- [2. 注释](#head8)
-			- [3. 数据类型：](#head9)
-			- [4. 变量](#head10)
-			- [5. 运算符](#head11)
-			- [6. 流程控制语句：](#head12)
-			- [7. JS特殊语法：](#head13)
-		- [2. 基本对象](#head14)
-			- [1. Function：函数(方法)对象](#head15)
-			- [2. Array:数组对象](#head16)
-			- [3. Boolean](#head17)
-			- [4. Date：日期对象](#head18)
-			- [5. Math：数学对象](#head19)
-			- [6. Number](#head20)
-			- [7. String](#head21)
-			- [8. RegExp：正则表达式对象](#head22)
-			- [9. Global](#head23)
-	- [2. BOM](#head24)
-		- [1. 概念：](#head25)
-		- [2. 组成：](#head26)
-			- [ **Window：窗口对象**](#head27)
-			- [ **Navigator：浏览器对象**](#head28)
-			- [ **Screen：显示器屏幕对象**](#head29)
-			- [ **History：历史记录对象**](#head30)
-			- [ **Location：地址栏对象**](#head31)
-	- [3. DOM](#head32)
-	- [ 事件监听机制：](#head33)
-	- [ DOM简单学习：为了满足案例要求](#head34)
-	- [ 事件简单学习](#head35)
-# <span id="head1"><span id="head1"> JavaWeb</span></span>
+- [ JavaScript基础](#head14)
+	- [ JavaScript：](#head15)
+- [ JavaScript高级](#head16)
+	- [1. ECMAScript 客户端脚本语言的标准](#head17)
+		- [ 1.基本语法：](#head18)
+			- [1. 与html结合方式](#head19)
+			- [2. 注释](#head20)
+			- [3. 数据类型：](#head21)
+			- [4. 变量](#head22)
+			- [5. 运算符](#head23)
+			- [6. 流程控制语句：](#head24)
+			- [7. JS特殊语法：](#head25)
+		- [2. 基本对象](#head26)
+			- [1. Function：函数(方法)对象](#head27)
+			- [2. Array:数组对象](#head28)
+			- [3. Boolean](#head29)
+			- [4. Date：日期对象](#head30)
+			- [5. Math：数学对象](#head31)
+			- [6. Number](#head32)
+			- [7. String](#head33)
+			- [8. RegExp：正则表达式对象](#head34)
+			- [9. Global](#head35)
+	- [2. BOM](#head36)
+		- [1. 概念：](#head37)
+		- [2. 组成：](#head38)
+			- [ **Window：窗口对象**](#head39)
+			- [ **Navigator：浏览器对象**](#head40)
+			- [ **Screen：显示器屏幕对象**](#head41)
+			- [ **History：历史记录对象**](#head42)
+			- [ **Location：地址栏对象**](#head43)
+	- [3. DOM](#head44)
+	- [ 事件监听机制：](#head45)
+	- [ DOM简单学习：](#head46)
+	- [ 事件简单学习](#head47)
+
+# <span id="head1"> JavaWeb</span>
 
 Java Web Learn Code Demo
 
 # <span id="head2"> web概念概述</span>
 
-## <span id="head3"> JavaWeb：</span>
+## <span id="head3"> JavaWeb</span>
 * 使用Java语言开发基于互联网的项目
 ## <span id="head4"> 软件架构：</span>
 1. C/S: Client/Server 客户端/服务器端
@@ -356,7 +322,6 @@ Java Web Learn Code Demo
 
 
 # <span id="head7"> CSS：页面美化和布局控制</span>
-
 ## <span id="head8">1. 概念： Cascading Style Sheets 层叠样式表</span>
 
 * 层叠：多个样式可以作用在同一个html的元素上，同时生效
@@ -477,9 +442,9 @@ Java Web Learn Code Demo
 
 ​         
 
-# <span id="head14"><span id="head2"> JavaScript基础</span></span>
+# <span id="head14"> JavaScript基础</span>
 
-## <span id="head15"><span id="head3"> JavaScript：</span></span>
+## <span id="head15"> JavaScript：</span>
 
 * 概念：	一门客户端脚本语言
 	* 运行在客户端浏览器中的。每一个浏览器都有JavaScript的解析引擎
@@ -497,13 +462,12 @@ Java Web Learn Code Demo
 
 	* JavaScript = ECMAScript + JavaScript自己特有的东西(BOM+DOM)
 
-# <span id="head16"><span id="head4"> JavaScript高级</span></span>
+# <span id="head16"> JavaScript高级</span>
 
-## <span id="head17"><span id="head5">1. ECMAScript 客户端脚本语言的标准</span></span>
-### <span id="head18"><span id="head6"> 1.基本语法：</span></span>
+## <span id="head17">1. ECMAScript 客户端脚本语言的标准</span>
+### <span id="head18"> 1.基本语法：</span>
 
-#### <span id="head19"><span id="head7">1. 与html结合方式</span></span>
-
+#### <span id="head19">1. 与html结合方式</span>
 1. 内部JS：
 
 * 定义<script>，标签体内容就是js代码
@@ -518,12 +482,12 @@ Java Web Learn Code Demo
 
 2. <script>可以定义多个。
 
-#### <span id="head20"><span id="head8">2. 注释</span></span>
+#### <span id="head20">2. 注释</span>
 
 1. 单行注释：//注释内容
 2. 多行注释：/*注释内容*/
 
-#### <span id="head21"><span id="head9">3. 数据类型：</span></span>
+#### <span id="head21">3. 数据类型：</span>
 
 1. 原始数据类型(基本数据类型)：
 1. number：数字。 整数/小数/NaN(not a number 一个不是数字的数字类型)
@@ -533,8 +497,7 @@ Java Web Learn Code Demo
 5. undefined：未定义。如果一个变量没有给初始化值，则会被默认赋值为undefined
 2. 引用数据类型：对象
 
-#### <span id="head22"><span id="head10">4. 变量</span></span>
-
+#### <span id="head22">4. 变量</span>
 * 变量：一小块存储数据的内存空间
 * Java语言是强类型语言，而JavaScript是弱类型语言。
 * 强类型：在开辟变量存储空间时，定义了空间将来存储的数据的数据类型。只能存储固定类型的数据
@@ -544,7 +507,7 @@ Java Web Learn Code Demo
 * typeof运算符：获取变量的类型。
 * 注：null运算后得到的是object
 
-#### <span id="head23"><span id="head11">5. 运算符</span></span>
+#### <span id="head23">5. 运算符</span>
 
 1. 一元运算符：只有一个运算数的运算符
 
@@ -620,7 +583,7 @@ Java Web Learn Code Demo
 
 
 
-#### <span id="head24"><span id="head12">6. 流程控制语句：</span></span>
+#### <span id="head24">6. 流程控制语句：</span>
 
 1. if...else...
 2. switch:
@@ -632,7 +595,7 @@ Java Web Learn Code Demo
 4. do...while
 5. for
 
-#### <span id="head25"><span id="head13">7. JS特殊语法：</span></span>
+#### <span id="head25">7. JS特殊语法：</span>
 
 1. 语句以;结尾，如果一行只有一条语句则 ;可以省略 (不建议)
 2. 变量的定义使用var关键字，也可以不使用
@@ -641,9 +604,9 @@ Java Web Learn Code Demo
 
 
 
-### <span id="head26"><span id="head14">2. 基本对象</span></span>
+### <span id="head26">2. 基本对象</span>
 
-#### <span id="head27"><span id="head15">1. Function：函数(方法)对象</span></span>
+#### <span id="head27">1. Function：函数(方法)对象</span>
 
 1. 创建：
 1. var fun = new Function(形式参数列表,方法体);  //忘掉吧
@@ -666,7 +629,7 @@ length:代表形参的个数
 5. 调用：
 方法名称(实际参数列表);
 
-#### <span id="head28"><span id="head16">2. Array:数组对象</span></span>
+#### <span id="head28">2. Array:数组对象</span>
 
 1. 创建：
 1. var arr = new Array(元素列表);
@@ -681,9 +644,9 @@ length:数组的长度
 1. JS中，数组元素的类型可变的。
 2. JS中，数组长度可变的。
 
-#### <span id="head29"><span id="head17">3. Boolean</span></span>
+#### <span id="head29">3. Boolean</span>
 
-#### <span id="head30"><span id="head18">4. Date：日期对象</span></span>
+#### <span id="head30">4. Date：日期对象</span>
 
 1. 创建：
 var date = new Date();
@@ -691,7 +654,7 @@ var date = new Date();
 toLocaleString()：返回当前date对象对应的时间本地字符串格式
 getTime():获取毫秒值。返回当前如期对象描述的时间到1970年1月1日零点的毫秒值差
 
-#### <span id="head31"><span id="head19">5. Math：数学对象</span></span>
+#### <span id="head31">5. Math：数学对象</span>
 
 1. 创建：
 * 特点：Math对象不用创建，直接使用。  Math.方法名();
@@ -703,11 +666,10 @@ round(x)：把数四舍五入为最接近的整数。
 3. 属性：
 PI
 
-#### <span id="head32"><span id="head20">6. Number</span></span>
+#### <span id="head32">6. Number</span>
 
-#### <span id="head33"><span id="head21">7. String</span></span>
-
-#### <span id="head34"><span id="head22">8. RegExp：正则表达式对象</span></span>
+#### <span id="head33">7. String</span>
+#### <span id="head34">8. RegExp：正则表达式对象</span>
 
 1. 正则表达式：定义字符串的组成规则。
 	1. 单个字符:[]
@@ -732,7 +694,7 @@ PI
 	2. 方法	
 		1. test(参数):验证指定的字符串是否符合正则定义的规范
 
-#### <span id="head35"><span id="head23">9. Global</span></span>
+#### <span id="head35">9. Global</span>
 
 1. test(参数):验证指定的字符串是否符合正则定义的规范
 	9. Global
@@ -750,12 +712,12 @@ eval():讲 JavaScript 字符串，并把它作为脚本代码来执行。
 3. URL编码
 传智播客 =  %E4%BC%A0%E6%99%BA%E6%92%AD%E5%AE%A2
 
-## <span id="head36"><span id="head24">2. BOM</span></span>
-### <span id="head37"><span id="head25">1. 概念：</span></span>
+## <span id="head36">2. BOM</span>
+### <span id="head37">1. 概念：</span>
 - Browser Object Model 浏览器对象模型
 - 将浏览器的各个组成部分封装成对象。
-### <span id="head38"><span id="head26">2. 组成：</span></span>
-#### <span id="head39"><span id="head27"> **Window：窗口对象**</span></span>
+### <span id="head38">2. 组成：</span>
+#### <span id="head39"> **Window：窗口对象**</span>
 1. 创建
 2. 方法
 1. 与弹出框有关的方法：
@@ -791,9 +753,9 @@ document
 1. Window对象不需要创建可以直接使用 window使用。 window.方法名();
 2. window引用可以省略。  方法名();
 
-#### <span id="head40"><span id="head28"> **Navigator：浏览器对象**</span></span>
-#### <span id="head41"><span id="head29"> **Screen：显示器屏幕对象**</span></span>
-#### <span id="head42"><span id="head30"> **History：历史记录对象**</span></span>
+#### <span id="head40"> **Navigator：浏览器对象**</span>
+#### <span id="head41"> **Screen：显示器屏幕对象**</span>
+#### <span id="head42"> **History：历史记录对象**</span>
 1. 创建(获取)：
 1. window.history
 2. history
@@ -807,7 +769,7 @@ document
 3. 属性：
 * length	返回当前窗口历史列表中的 URL 数量。
 
-#### <span id="head43"><span id="head31"> **Location：地址栏对象**</span></span>
+#### <span id="head43"> **Location：地址栏对象**</span>
 1. 创建(获取)：
 	1. window.location
 	2. location
@@ -815,7 +777,7 @@ document
 	* reload()	重新加载当前文档。刷新
 3. 属性
 	* href	设置或返回完整的 URL。
-## <span id="head44"><span id="head32">3. DOM</span></span>
+## <span id="head44">3. DOM</span>
 * 概念： Document Object Model 文档对象模型
 	* 将标记语言文档的各个组成部分，封装为对象。可以使用这些对象，对标记语言文档进行CRUD的动态操作
 
@@ -874,7 +836,7 @@ document
 		        //font-size--> fontSize
 		        div1.style.fontSize = "20px";
 		2. 提前定义好类选择器的样式，通过元素的className属性来设置其class属性值。
-## <span id="head45"><span id="head33"> 事件监听机制：</span></span>
+## <span id="head45"> 事件监听机制：</span>
 * 概念：某些组件被执行了某些操作后，触发某些代码的执行。	
 	* 事件：某些操作。如： 单击，双击，键盘按下了，鼠标移动了
 	* 事件源：组件。如： 按钮 文本输入框...
@@ -906,7 +868,7 @@ document
 7. 表单事件：
 	1. onsubmit	确认按钮被点击。
 	2. onreset	重置按钮被点击。
-## <span id="head46"><span id="head34"> DOM简单学习：为了满足案例要求</span></span>
+## <span id="head46"> DOM简单学习：</span>
 * 功能：控制html文档的内容
 * 获取页面标签(元素)对象：Element
 	
@@ -920,7 +882,7 @@ document
 		* 属性：innerHTML
 		1. 获取元素对象
 		2. 使用innerHTML属性修改标签体内容
-## <span id="head47"><span id="head35"> 事件简单学习</span></span>
+## <span id="head47"> 事件简单学习</span>
 * 功能： 某些组件被执行了某些操作后，触发某些代码的执行。
 	* 造句：  xxx被xxx,我就xxx
 		* 我方水晶被摧毁后，我就责备对友。
