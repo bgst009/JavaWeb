@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+<img id="light" src="img/off.gif">
+<h1 id="h1">Jack Ma</h1>
+</body>
+</html>
+
+
+<script>
+    //通过ID获取元素对象
+
+    var light = document.getElementById("light");
+
+    alert(" change color")
+    //修改属性值
+    light.src = "img/on.gif"
+
+    var text = document.getElementById("h1");
+    alert("change text");
+    text.innerHTML = "Qiang dao mei you qiang"
+
+</script>

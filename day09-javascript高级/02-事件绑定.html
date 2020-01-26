@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function fun() {
+            alert("onclick");
+
+        }
+    </script>
+</head>
+<body>
+<img id="light" onclick="fun()" src="img/off.gif">
+<img id="light2" src="img/off.gif">
+</body>
+</html>
+
+<script>
+    var light2 = document.getElementById("light2");
+    light2.onclick = fun;
+</script>
