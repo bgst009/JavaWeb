@@ -1273,11 +1273,11 @@ flag = true;
 		* 如：servlet/jsp,php,asp....
 3.  网络通信三要素
       	1. IP：电子设备(计算机)在网络中的唯一标识。
-         	2. 端口：应用程序在计算机中的唯一标识。 0~65536
+              	2. 端口：应用程序在计算机中的唯一标识。 0~65536
             	3. 传输协议：规定了数据传输的规则
-               		1. 基础协议：
+                   		1. 基础协议：
                   			1. tcp:安全协议，三次握手。 速度稍慢
-                     			2. udp：不安全协议。 速度快
+                         			2. udp：不安全协议。 速度快
 
 
 
@@ -1421,3 +1421,11 @@ flag = true;
 			* @WebServlet("资源路径")
 
 ## IDEA与tomcat的相关配置
+
+1. IDEA会为每一个tomcat部署的项目单独建立一份配置文件
+	* 查看控制台的log：Using CATALINA_BASE:   "C:\Users\fqy\.IntelliJIdea2018.1\system\tomcat\_itcast"
+
+2. 工作空间项目    和     tomcat部署的web项目
+	* tomcat真正访问的是“tomcat部署的web项目”，"tomcat部署的web项目"对应着"工作空间项目" 的web目录下的所有资源
+	* WEB-INF目录下的资源不能被浏览器直接访问。
+3. 断点调试：使用"小虫子"启动 dubug 启动
