@@ -11,7 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
 
   <h1>hello hahah tomcat</h1>
 

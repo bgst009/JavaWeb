@@ -8,6 +8,9 @@
     <servlet>
         <servlet-name>demo01</servlet-name>
         <servlet-class>cn.itcast.web.servlet.servletDemo01</servlet-class>
+<!--        >0  load on server startup
+                <0  load on transfer            -->
+        <load-on-startup>5</load-on-startup>
     </servlet>
 
     <servlet-mapping>

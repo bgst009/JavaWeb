@@ -24,7 +24,7 @@ public class servletDemo01  implements Servlet {
     public String getServletInfo() {
         return null;
     }
-//销毁方法
+//销毁方法 正常关闭服务器
     @Override
     public void destroy() {
         System.out.println("destroy");
