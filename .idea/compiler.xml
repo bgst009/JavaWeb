@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="13">
       <module name="day13-servlet" target="" />
+      <module name="day14-servlet" target="" />
     </bytecodeTargetLevel>
   </component>
 </project>
