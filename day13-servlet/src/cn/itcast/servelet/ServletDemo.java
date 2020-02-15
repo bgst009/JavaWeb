@@ -5,6 +5,7 @@ import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
 @WebServlet(urlPatterns = "/demo")
+//@WebServlet(url"/demo")
 public class ServletDemo implements Servlet {
 
 
