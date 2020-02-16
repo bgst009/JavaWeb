@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <a href="regist02.html" name="regist">click here for regist</a>
   </body>
 </html>
