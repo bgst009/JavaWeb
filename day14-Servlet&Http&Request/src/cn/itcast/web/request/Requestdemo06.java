@@ -14,6 +14,8 @@ import java.util.Set;
 public class Requestdemo06 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //post 获取请求参数
+        //1.设置流的编码
+        request.setCharacterEncoding("utf-8");
         //根据参数名称获取参数值
         String username = request.getParameter("username");
         System.out.println("post");
