@@ -11,6 +11,7 @@
     <title>$Title$</title>
   </head>
   <body>
-  <a href="regist02.html" name="regist">click here for regist</a>
+  <a href="regist02.html" name="regist">click here for regist</a><br>
+  <a href="/day14_Servlet_Http_Request_war_exploded/RequestDemo08" name="demo08">demo08</a>
   </body>
 </html>
