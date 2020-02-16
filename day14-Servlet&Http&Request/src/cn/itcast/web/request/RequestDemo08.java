@@ -12,6 +12,10 @@ import java.io.IOException;
 public class RequestDemo08 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("demo8-ed");
+
+        //存储数据到request域中
+        request.setAttribute("msg","hello");
+
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("/RequestDemo09");
         requestDispatcher.forward(request,response);
     }
