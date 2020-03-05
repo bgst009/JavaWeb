@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04-JDBC/day04-JDBC.iml" filepath="$PROJECT_DIR$/day04-JDBC/day04-JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/day06-html/day06-html.iml" filepath="$PROJECT_DIR$/day06-html/day06-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/day07-html&amp;css/day07-html&amp;css.iml" filepath="$PROJECT_DIR$/day07-html&amp;css/day07-html&amp;css.iml" />
       <module fileurl="file://$PROJECT_DIR$/day08-javascript基础/day08-javascript基础.iml" filepath="$PROJECT_DIR$/day08-javascript基础/day08-javascript基础.iml" />
@@ -11,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/day13-servlet/day13-servlet.iml" filepath="$PROJECT_DIR$/day13-servlet/day13-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/day13-tomcat/day13-tomcat.iml" filepath="$PROJECT_DIR$/day13-tomcat/day13-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14-Servlet&amp;Http&amp;Request/day14-Servlet&amp;Http&amp;Request.iml" filepath="$PROJECT_DIR$/day14-Servlet&amp;Http&amp;Request/day14-Servlet&amp;Http&amp;Request.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14-test/day14-test.iml" filepath="$PROJECT_DIR$/day14-test/day14-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15-response/day15-response.iml" filepath="$PROJECT_DIR$/day15-response/day15-response.iml" />
     </modules>
   </component>
 </project>
