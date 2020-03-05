@@ -14,6 +14,7 @@
   hello response
 
   <a href="/day15_response_war_exploded/ResponseDemo01">demo01</a>
+  <a href="./ResponseDemo02">demo</a>
 
   </body>
 </html>
