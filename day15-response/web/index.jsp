@@ -13,8 +13,10 @@
   <body>
   hello response
 
-  <a href="/day15_response_war_exploded/ResponseDemo01">demo01</a>
-  <a href="./ResponseDemo02">demo</a>
+  <a href="/day15_response_war_exploded/ResponseDemo01">demo01</a></br>
+  <a href="./ResponseDemo02">demo</a></br>
+  <a href="./CheckCode">checkcode</a></br>
+  <a href="regist.html">regist page</a>
 
   </body>
 </html>
