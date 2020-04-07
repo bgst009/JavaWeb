@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/day14-test/day14-test.iml" filepath="$PROJECT_DIR$/day14-test/day14-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/day15-response/day15-response.iml" filepath="$PROJECT_DIR$/day15-response/day15-response.iml" />
       <module fileurl="file://$PROJECT_DIR$/day16-cookie/day16-cookie.iml" filepath="$PROJECT_DIR$/day16-cookie/day16-cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_case/day17_case.iml" filepath="$PROJECT_DIR$/day17_case/day17_case.iml" />
       <module fileurl="file://$PROJECT_DIR$/day17_el&amp;jstl/day17_el&amp;jstl.iml" filepath="$PROJECT_DIR$/day17_el&amp;jstl/day17_el&amp;jstl.iml" />
     </modules>
   </component>
